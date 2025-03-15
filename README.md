@@ -2,13 +2,6 @@
 
 This Python program fetches research papers from PubMed based on a user-specified query. It filters the results to identify papers with at least one author affiliated with a pharmaceutical or biotech company and outputs the results as a CSV file.
 
-## Features
-
- * Fetches papers using the PubMed API
- * Filters papers to identify non-academic authors affiliated with pharmaceutical/biotech companies
- * Outputs results to a CSV file
- * Command-line options for flexible usage (--debug, --file, --help)
- * Efficient and well-typed Python code with error handling
 
 ## Setup and Installation
 
