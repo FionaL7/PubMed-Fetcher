@@ -4,11 +4,11 @@ This Python program fetches research papers from PubMed based on a user-specifie
 
 ## Features
 
- * Fetches papers using the PubMed API\n
- * Filters papers to identify non-academic authors affiliated with pharmaceutical/biotech companies\n
- * Outputs results to a CSV file\n
- * Command-line options for flexible usage (--debug, --file, --help)\n
- * Efficient and well-typed Python code with error handling\n
+ * Fetches papers using the PubMed API
+ * Filters papers to identify non-academic authors affiliated with pharmaceutical/biotech companies
+ * Outputs results to a CSV file
+ * Command-line options for flexible usage (--debug, --file, --help)
+ * Efficient and well-typed Python code with error handling
 
 ## Setup and Installation
 
