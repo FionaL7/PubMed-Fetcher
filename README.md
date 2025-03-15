@@ -32,7 +32,7 @@ poetry --version
 
 ### 3. Clone Repository
 ```bash
-git clone https://github.com/your-username/pubmed-fetcher.git
+git clone https://github.com/FionaL7/PubMed-Fetcher.git
 ```
 ```bash         
 cd pubmed-fetcher
