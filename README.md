@@ -37,6 +37,9 @@ git clone https://github.com/FionaL7/PubMed-Fetcher.git
 ```bash         
 cd pubmed-fetcher
 ```
+```bash         
+cd fetcher
+```
 
 ### 4. Install Dependencies
 
