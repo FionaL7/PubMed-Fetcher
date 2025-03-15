@@ -1,27 +1,24 @@
-[project]
+[tool.poetry]
 name = "pubmed-fetcher"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "Fiona Lazarus"}
-]
+authors = ["Fiona Lazarus"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "biopython (>=1.85,<2.0)",
-    "pandas (>=2.2.3,<3.0.0)",
-    "requests (>=2.32.3,<3.0.0)"
-]
+packages = [{ include = "fetcher" }]
 
+[tool.poetry.dependencies]
+python = "^3.10"
+biopython = "^1.85"
+pandas = "^2.2.3"
+requests = "^2.32.3"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.poetry.scripts]
+get-papers-list = "fetcher.main:main"
+
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.15.0"
 flake8 = "^7.1.2"
-
-[tool.poetry.scripts]
-get-papers-list = 'pubmed_fetcher.main:main'
-

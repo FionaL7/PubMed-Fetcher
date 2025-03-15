@@ -4,7 +4,7 @@ import re
 from typing import List, Dict, Any, Optional
 from Bio import Entrez
 
-Entrez.email = 'your-email@example.com'
+Entrez.email = 'your_email@example.com'
 
 
 EMAIL_PATTERN = r'[\w\.-]+@[\w\.-]+\.\w+'
