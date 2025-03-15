@@ -32,7 +32,7 @@ poetry --version
 
 ### 3. Clone Repository
 
-git clone https://github.com/your-username/pubmed-fetcher.git
+git clone https://github.com/your-username/pubmed-fetcher.git            
 cd pubmed-fetcher
 
 ### 4. Install Dependencies
